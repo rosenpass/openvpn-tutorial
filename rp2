@@ -1,0 +1,9 @@
+public_key = "rp2-public-key"
+secret_key = "rp2-secret-key"
+listen = ["192.168.2.160:9999"]
+verbosity = "Quiet"
+
+[[peers]]
+public_key = "rp1-public-key"
+endpoint = "192.168.2.215:9998"
+key_out = "rp2-key-out"
